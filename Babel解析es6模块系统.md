@@ -13,7 +13,9 @@
 ###最简单的export和import
 我们创建两个文件，export.js和import.js。
 首先，在export.js中写入如下代码：
+
     export const a = 'a'
 在import.js中写入如下代码：
+
     import a from './export'
     console.log(a)
