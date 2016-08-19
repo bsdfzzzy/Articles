@@ -75,8 +75,8 @@ OK，输出没有问题，再来看看这次babel把代码变成什么样了，
 
     console.log(_export.a);
     console.log(_export2.default);
-我们发现import里面，babel添加了一个函数，它大概是个什么意思呢？这里就会用到export里面添加的对象属性__esModule。
-在export里，babel用Object.defineProperty来为默认对象exports添加了一个不可变的属性`__`esModule，然后在import里进行判断：如果判断在引入的对象中这个属性的值存在且为true，那么直接返回，否则将返回一个带有default属性的对象，之后的调用采用default来调用需要的值。那为什么一定要要加入default属性呢？在我们开发时，我们是不会用babel将所有第三方包也编译一遍的，这个时候有些包被引入时没有default对象但是es6还是会通过default去调用，因此会抛出error，此时，babel将没有被babel编译的引入对象添加到default属性中来避免此错误。
+我们发现import里面，babel添加了一个函数，它大概是个什么意思呢？这里就会用到export里面添加的对象属性\__\esModule。
+在export里，babel用Object.defineProperty来为默认对象exports添加了一个不可变的属性\__\esModule，然后在import里进行判断：如果判断在引入的对象中这个属性的值存在且为true，那么直接返回，否则将返回一个带有default属性的对象，之后的调用采用default来调用需要的值。那为什么一定要要加入default属性呢？在我们开发时，我们是不会用babel将所有第三方包也编译一遍的，这个时候有些包被引入时没有default对象但是es6还是会通过default去调用，因此会抛出error，此时，babel将没有被babel编译的引入对象添加到default属性中来避免此错误。
 ###再来看看function怎么处理
 在export.js中加入
     
