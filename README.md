@@ -16,3 +16,7 @@
 ##[模块的新兴解决方案 —— module loader](https://github.com/ModuleLoader/es-module-loader)
 
 ##[高阶模块模式](http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html)
+
+##[一个前端的自我修养](http://taobaofed.org/blog/2016/03/23/the-growth-of-front-end/)`目前看到的最适合前端学习者模仿的学习方式`
+
+##[React入门](http://blog.codingplayboy.com/2016/08/20/react/)`对react特性和组件生命周期有较系统的介绍`
