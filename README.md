@@ -22,3 +22,7 @@
 ##[React入门](http://blog.codingplayboy.com/2016/08/20/react/)`对react特性和组件生命周期有较系统的介绍`
 
 ##[前端的IoC](http://efe.baidu.com/blog/introduction-about-ioc-in-frontend/)
+
+##[mysql入门全套](http://blog.jobbole.com/104809/)
+
+##[CSS资源大全](https://github.com/jobbole/awesome-css-cn)
