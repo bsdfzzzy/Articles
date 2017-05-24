@@ -1,6 +1,5 @@
-# 比较好的类型检查
+## 比较好的类型检查
 
-`
   function type(obj) {
     var toString = Object.prototype.toString;
     var map = {
@@ -17,4 +16,3 @@
     };
     return map[toString.call(obj)];
   }
-`
