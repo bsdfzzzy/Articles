@@ -26,3 +26,5 @@
 ##[mysql入门全套](http://blog.jobbole.com/104809/)
 
 ##[CSS资源大全](https://github.com/jobbole/awesome-css-cn)
+
+##[Head标签的最佳实践](https://mp.weixin.qq.com/s/GF3HPhFrXll6eEI8crJCaw)
